@@ -18,7 +18,7 @@ const BlogPostCard = ({ post }: Props) => {
           <h3 className='text-lg font-semibold'>{post.title}</h3>
           <p className='text-sm text-gray-600 flex-grow'>{post.excerpt}</p>
           <div className='text-right'>
-            {/* Güncellenmiş Read More Butonu */}
+            {/*Read More Button (updated) */}
             <span className='inline-block text-sm font-semibold cursor-pointer hover:bg-cyan-800 hover:text-white py-1 px-3 rounded transition-colors'>Read More</span>
           </div>
         </div>

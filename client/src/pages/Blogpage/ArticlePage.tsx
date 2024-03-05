@@ -30,20 +30,20 @@ const ArticlePage = () => {
   ];
 
   const handleRatingChange = (value: number) => {
-    setRating(value); // rating güncelleme
+    setRating(value); // rating update
   };
 
   return (
     <div className="container mx-auto py-12">
       <div className="max-w-7xl mx-auto">
-        {/* Başlık */}
+        {/* Title */}
         <h1 className="text-3xl lg:text-4xl font-bold mb-4">The Future of Car Rentals</h1>
-        {/* Yayın tarihi */}
+        {/* Publish Date */}
         <div className="text-gray-600 mb-4">
           <span>Published: 2024-02-15</span>
         </div>
         
-        {/* İçerik */}
+        {/* Content */}
         <div className="bg-blue-50 p-6 rounded-lg" style={{ fontSize: '1.05rem' }}>
           <p>The car rental industry has come a long way since its inception, and it continues to evolve rapidly with advancements in technology and changing consumer preferences. In this article, we'll explore some key trends shaping the future of car rental and how they're revolutionizing the way we travel.</p>
           <br />
