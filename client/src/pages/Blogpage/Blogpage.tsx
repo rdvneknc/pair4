@@ -14,7 +14,7 @@ const BlogPage = () => {
     setIsChatboxOpen(false);
   };
 
-  // Static blog pot data
+  // Static blog post data
   const blogPosts = [
     {
       id: 1,
